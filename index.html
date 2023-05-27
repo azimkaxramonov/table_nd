@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Добавление , Изменение и удаление элемента из таблицы</h1>
+    </header>
+
+    <form >
+        <div class="name">
+            <h6>Имя</h6>
+            <input type="text" name="name" class="nameinp">
+        </div>
+        <div class="age">
+            <h6>Возраст</h6>
+            <input type="number" name="age" class="ageinp">
+        </div>
+        <button class="show">Показать</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Имя студента</th>
+                <th> Год рождения</th>
+                <th>Действие</th>
+            </tr>
+        </thead>
+        <tbody >
+           
+        </tbody>
+    </table>
+
+
+    <div class="modal_window">
+        <form name="get">
+            <h5>name</h5>
+            <input type="text" name="name" class="edit_name">
+            <h5>age</h5>
+            <input type="text" name="age" class="edit_age">
+            <button class="edtbtn">change</button>
+        </form>
+        <img src="img/delete-svgrepo-com.svg" alt="" id="edit_img">
+    </div>
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
